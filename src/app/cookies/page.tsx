@@ -1,4 +1,3 @@
-import Link from 'next/link';
 
 export default function CookiesPolicy() {
   return (
@@ -22,9 +21,9 @@ export default function CookiesPolicy() {
             <section>
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">1. Introduction</h3>
               <p className="text-gray-700 mb-4">
-                This Cookies Policy explains how Deep Tech Entrepreneurial Network - Western Canada ("we," "us," or "our") 
+                This Cookies Policy explains how Deep Tech Entrepreneurial Network - Western Canada (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) 
                 uses cookies and similar tracking technologies when you visit our website. This policy is designed to comply with 
-                Canada's <em>Personal Information Protection and Electronic Documents Act</em> (PIPEDA) and other applicable privacy laws.
+                Canada&apos;s <em>Personal Information Protection and Electronic Documents Act</em> (PIPEDA) and other applicable privacy laws.
               </p>
             </section>
 
@@ -85,7 +84,7 @@ export default function CookiesPolicy() {
               </p>
               
               <h4 className="text-xl font-semibold text-gray-800 mb-2 mt-6">Browser Controls:</h4>
-              <p className="text-gray-700 mb-2">You can set or amend your web browser controls to accept or refuse cookies. Here's how to do this:</p>
+              <p className="text-gray-700 mb-2">You can set or amend your web browser controls to accept or refuse cookies. Here&apos;s how to do this:</p>
               <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
                 <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener noreferrer" className="text-[#00A86B] hover:underline">Google Chrome</a></li>
                 <li><a href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop" target="_blank" rel="noopener noreferrer" className="text-[#00A86B] hover:underline">Mozilla Firefox</a></li>
@@ -119,7 +118,7 @@ export default function CookiesPolicy() {
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">7. Changes to This Policy</h3>
               <p className="text-gray-700 mb-4">
                 We may update this Cookies Policy from time to time. We will notify you of any changes by posting the new policy 
-                on this page and updating the "Last Updated" date at the top of this policy.
+                on this page and updating the &quot;Last Updated&quot; date at the top of this policy.
               </p>
             </section>
 

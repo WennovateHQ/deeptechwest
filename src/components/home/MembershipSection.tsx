@@ -5,6 +5,22 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaChevronDown, FaChevronUp, FaCheck, FaUsers, FaUserTie, FaGraduationCap, FaRocket, FaChartLine, FaArrowRight } from 'react-icons/fa';
 
+type MembershipCategory = {
+  id: string;
+  title: string;
+  icon: React.ReactElement;
+  description: string;
+  requirements: string[];
+  benefits: string[];
+  ctaText: string;
+};
+
+type MembershipCardProps = {
+  category: MembershipCategory;
+  isActive: boolean;
+  onClick: () => void;
+};
+
 const membershipCategories = [
   {
     id: 'students',
@@ -100,7 +116,7 @@ const membershipCategories = [
   }
 ];
 
-const MembershipCard = ({ category, isActive, onClick }) => {
+const MembershipCard = ({ category, isActive, onClick }: MembershipCardProps) => {
   const cardVariants = {
     initial: { opacity: 0, y: 20 },
     animate: { 
@@ -151,7 +167,7 @@ const MembershipCard = ({ category, isActive, onClick }) => {
           <div>
             <h4 className="text-sm font-semibold text-gray-700 mb-2">Requirements:</h4>
             <ul className="space-y-2">
-              {category.requirements.map((req, i) => (
+              {category.requirements.map((req: string, i: number) => (
                 <li key={i} className="flex items-start">
                   <FaCheck className="text-green-500 mt-1 mr-2 flex-shrink-0" />
                   <span className="text-sm text-gray-600">{req}</span>
@@ -163,7 +179,7 @@ const MembershipCard = ({ category, isActive, onClick }) => {
           <div>
             <h4 className="text-sm font-semibold text-gray-700 mb-2">Benefits:</h4>
             <ul className="space-y-2">
-              {category.benefits.map((benefit, i) => (
+              {category.benefits.map((benefit: string, i: number) => (
                 <li key={i} className="flex items-start">
                   <FaCheck className="text-green-500 mt-1 mr-2 flex-shrink-0" />
                   <span className="text-sm text-gray-600">{benefit}</span>
@@ -190,18 +206,18 @@ const tabContentVariants = {
   enter: { 
     opacity: 1, 
     y: 0,
-    transition: { duration: 0.3, ease: 'easeInOut' }
+    transition: { duration: 0.3 }
   },
   exit: { 
     opacity: 0,
     y: -10,
-    transition: { duration: 0.2, ease: 'easeInOut' }
+    transition: { duration: 0.2 }
   }
 };
 
 const listItemVariants = {
   hidden: { opacity: 0, x: -10 },
-  visible: (i) => ({
+  visible: (i: number) => ({
     opacity: 1,
     x: 0,
     transition: {
@@ -215,9 +231,9 @@ const listItemVariants = {
 
 const MembershipSection = () => {
   const [activeTab, setActiveTab] = useState('students');
-  const [expandedCard, setExpandedCard] = useState(null);
+  const [expandedCard, setExpandedCard] = useState<string | null>(null);
 
-  const toggleCard = (id) => {
+  const toggleCard = (id: string) => {
     setExpandedCard(expandedCard === id ? null : id);
   };
 

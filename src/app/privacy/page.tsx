@@ -1,4 +1,3 @@
-import Link from 'next/link';
 
 export default function PrivacyPolicy() {
   return (
@@ -22,7 +21,7 @@ export default function PrivacyPolicy() {
             <section>
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">1. Introduction</h3>
               <p className="text-gray-700 mb-4">
-                Deep Tech Entrepreneurial Network - Western Canada ("we," "our," or "us") is committed to protecting your privacy. 
+                Deep Tech Entrepreneurial Network - Western Canada (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. 
                 This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website 
                 and use our services, in compliance with the <em>Personal Information Protection and Electronic Documents Act</em> (PIPEDA) 
                 and other applicable Canadian privacy laws.
@@ -93,7 +92,7 @@ export default function PrivacyPolicy() {
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">7. Changes to This Privacy Policy</h3>
               <p className="text-gray-700 mb-4">
                 We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy 
-                on this page and updating the "Last Updated" date.
+                on this page and updating the &quot;Last Updated&quot; date at the top of this policy.
               </p>
             </section>
 

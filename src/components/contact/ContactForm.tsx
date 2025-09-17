@@ -31,6 +31,7 @@ const ContactForm = () => {
       //   headers: { 'Content-Type': 'application/json' },
       //   body: JSON.stringify(formData),
       // });
+      console.log('Form data:', formData);
       
       // if (!response.ok) throw new Error('Failed to send message');
       

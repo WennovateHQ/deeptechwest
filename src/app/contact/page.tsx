@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import ContactForm from '@/components/contact/ContactForm';
 
 export default function ContactPage() {
@@ -53,7 +53,7 @@ export default function ContactPage() {
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h2>
               <p className="text-gray-600 mb-8">
-                We'd love to hear from you! Reach out to us through any of the following channels, 
+                We&apos;d love to hear from you! Reach out to us through any of the following channels, 
                 and our team will get back to you as soon as possible.
               </p>
             </div>

@@ -11,8 +11,8 @@ const ApplicationPage = () => {
               Ready to Accelerate Your Deep Tech Journey?
             </h1>
             <p className="text-xl text-light-tech">
-              Join Western Canada's most connected and impactful deep tech community. 
-              Our rigorous selection process ensures you're connecting with the region's most promising innovators and strategic partners.
+              Join Western Canada&apos;s most connected and impactful deep tech community. 
+              Our rigorous selection process ensures you&apos;re connecting with the region&apos;s most promising innovators and strategic partners.
             </p>
           </div>
         </div>
@@ -26,7 +26,7 @@ const ApplicationPage = () => {
               <div className="mb-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Join Our Community on Discord</h2>
                 <p className="text-lg text-gray-600 mb-8">
-                  We've moved our application process to Discord! Join our community to connect with other members, 
+                  We&apos;ve moved our application process to Discord! Join our community to connect with other members, 
                   access exclusive resources, and start your journey with Deep Tech Entrepreneurial Network.
                 </p>
               </div>

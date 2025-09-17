@@ -123,7 +123,7 @@ export default function SitemapPage() {
 
         <div className="mt-12 text-center">
           <p className="text-gray-600">
-            Can't find what you're looking for?{' '}
+            Can&apos;t find what you&apos;re looking for?{' '}
             <Link href="/contact" className="text-[#00A86B] hover:underline">
               Contact us
             </Link>

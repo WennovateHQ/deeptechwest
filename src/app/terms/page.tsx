@@ -22,7 +22,7 @@ export default function TermsOfService() {
             <section>
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">1. Acceptance of Terms</h3>
               <p className="text-gray-700 mb-4">
-                By accessing or using the services provided by Deep Tech Entrepreneurial Network - Western Canada ("we," "us," or "our"), 
+                By accessing or using the services provided by Deep Tech Entrepreneurial Network - Western Canada (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;), 
                 you agree to be bound by these Terms of Service and our <Link href="/privacy" className="text-[#00A86B] hover:underline">Privacy Policy</Link>. 
                 These terms apply to all visitors, users, and others who access or use our services.
               </p>
@@ -93,8 +93,7 @@ export default function TermsOfService() {
             <section>
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">8. Changes to Terms</h3>
               <p className="text-gray-700 mb-4">
-                We reserve the right to modify or replace these Terms at any time. We will provide notice of any changes by posting the updated Terms 
-                on our website and updating the "Last Updated" date. Your continued use of our services after any changes constitutes your acceptance 
+                We may update these Terms of Service from time to time. We will notify you of any changes by posting the new terms on this page and updating the &quot;Last Updated&quot; date at the top of this page. Your continued use of our services after any changes constitutes your acceptance 
                 of the new Terms.
               </p>
             </section>
