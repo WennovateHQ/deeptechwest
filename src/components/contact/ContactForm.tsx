@@ -17,7 +17,7 @@ const ContactForm = () => {
   
   const { register, handleSubmit, formState: { errors }, reset } = useForm<FormData>();
 
-  const onSubmit: SubmitHandler<FormData> = async (data) => {
+  const onSubmit: SubmitHandler<FormData> = async (formData) => {
     setIsSubmitting(true);
     setSubmitStatus(null);
     
@@ -29,7 +29,7 @@ const ContactForm = () => {
       // const response = await fetch('/api/contact', {
       //   method: 'POST',
       //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify(data),
+      //   body: JSON.stringify(formData),
       // });
       
       // if (!response.ok) throw new Error('Failed to send message');
@@ -39,7 +39,7 @@ const ContactForm = () => {
         message: 'Your message has been sent successfully! We\'ll get back to you soon.'
       });
       reset();
-    } catch (error) {
+    } catch {
       setSubmitStatus({
         success: false,
         message: 'Failed to send message. Please try again later.'

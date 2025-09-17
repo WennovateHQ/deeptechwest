@@ -2,8 +2,9 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-import { FaLinkedin, FaInstagram, FaYoutube, FaEnvelope, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram, FaYoutube, FaEnvelope } from 'react-icons/fa';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const Footer = () => {
   const [email, setEmail] = useState('');
@@ -43,12 +44,12 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="flex items-center space-x-4 h-12">
               <Link href="/" className="flex-shrink-0 h-full flex items-center">
-                <img 
+                <Image 
                   src="/logo.svg" 
                   alt="DeepTech West Logo" 
                   className="h-full w-auto"
-                  width="200"
-                  height="48"
+                  width={200}
+                  height={48}
                 />
               </Link>
               <div className="flex flex-col justify-center h-full py-1">

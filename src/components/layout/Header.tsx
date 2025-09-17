@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import React, { useState } from 'react';
+import Image from 'next/image';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,12 +15,12 @@ const Header = () => {
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="container-inner mx-auto px-4 py-3 flex justify-between items-center">
         <Link href="/" className="flex items-center space-x-3">
-          <img 
+          <Image 
             src="/logo.svg" 
             alt="DeepTech West Logo" 
             className="h-12 w-auto"
-            width="48"
-            height="48"
+            width={48}
+            height={48}
           />
           <div className="hidden sm:block text-[#1B365D] font-bold">
             <div className="text-lg leading-tight">Deep Tech</div>

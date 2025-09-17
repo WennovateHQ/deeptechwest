@@ -21,7 +21,7 @@ const HeroSection = () => {
           </h1>
           <p className="text-xl md:text-2xl mb-10 text-[#E8F4FD] drop-shadow-md">
             Transform groundbreaking university research into market-leading companies. 
-            Join Western Canada's most connected community of deep tech entrepreneurs, researchers, and investors.
+            Join Western Canada&apos;s most connected community of deep tech entrepreneurs, researchers, and investors.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link href="/apply" className="btn-tertiary inline-flex items-center gap-2 text-lg shadow-lg hover:shadow-xl transition-shadow">

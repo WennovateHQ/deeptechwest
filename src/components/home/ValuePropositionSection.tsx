@@ -7,7 +7,7 @@ const ValuePropositionSection = () => {
         <div className="mb-16 text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">From Research Breakthrough to Market Leadership</h2>
           <p className="text-lg text-[#6C757D]">
-            Western Canada's universities produce world-class research in AI, IoT, and robotics. Deeptech West bridges the critical gap between discovery and commercialization, connecting exceptional talent with the resources needed to build global companies.
+            Western Canada&apos;s universities produce world-class research in AI, IoT, and robotics. Deeptech West bridges the critical gap between discovery and commercialization, connecting exceptional talent with the resources needed to build global companies.
           </p>
         </div>
 

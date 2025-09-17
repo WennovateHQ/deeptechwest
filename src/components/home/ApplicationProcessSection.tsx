@@ -48,7 +48,7 @@ const ApplicationProcessSection = () => {
     <section className="section bg-light-tech">
       <div className="container-inner">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Join Western Canada's Premier Deep Tech Network</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Join Western Canada&apos;s Premier Deep Tech Network</h2>
           <p className="text-lg text-neutral-grey max-w-3xl mx-auto">
             Our application process is designed to ensure a high-quality community that delivers value to all members.
           </p>
